@@ -30,15 +30,15 @@ function draw( ) {
             stroke(106, 233, 177)
             circle(800, 0, i-85)
         fill(255, 255, 255)
-        stroke(0)
+        stroke(random(225), random(225), random(225))
         circle(-50, 300, i-100);
             fill(255, 255, 255)
-            stroke(0)
+            stroke(random(225), random(225), random(225))
             circle(850, 300, i-100);
-        stroke(255, 225, 225)
+        stroke(random(255), random(225), random(225))
         fill(0)
         circle(400, -120, i-100)
-            stroke(255, 225, 225)
+            stroke(random(255), random(225), random(225))
             fill(0)
             circle(400, 720, i-100)
         
@@ -62,5 +62,4 @@ function draw( ) {
   
 
 }
-
 
