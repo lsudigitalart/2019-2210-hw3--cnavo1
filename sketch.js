@@ -3,7 +3,7 @@
 function draw( ) {
     createCanvas(800, 600);
     background(15, 21, 105);
-
+    frameRate(12)
     strokeWeight(3)
     //stroke(255, 59, 0)
     //fill(255, 148, 0)
